@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Hey","Whats up"],
+         "responses": ["Hello!", "Good to see you again", "Hi there, how can I help?", "Hey!", "Good day."],
+         "context":[""]
+        },
+        {"tag": "goodbye",
+          "patterns": ["Bye", "See you later", "goodbye","g2g", "see ya"],
+          "responses": ["See you later.", "Have a nice day", "Bye! Come back again soon.","Goodbye!","Bye! I hope we can talk again some day."],
+          "context":[""]
+        },
+        {"tag": "name",
+          "patterns": ["what's your name?", "what are you called?", "who are you?"],
+          "responses": ["My name is Mandy. \nI am a conversation robot.", "I'm Mandy. I'm a chatbot ", "Chatbot's Mandy"],
+          "context":[""]
+        },
+        {"tag": "author",
+          "patterns": ["Do you Know who Created you?", "Who is your developer?", "Who is developed you?"],
+          "responses": ["Yes, Katrina is my developer.", "I'm created by Katrina"],
+          "context":[""]
+        },
+        {"tag": "thanks",
+          "patterns": ["thanks", "Thank you", "That's helpful"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure"],
+          "context":[""]
+        },
+        {"tag": "noanswer",
+          "patterns": [],
+          "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+          "context":[""]
+        },
+         {"tag": "options",
+           "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+           "responses": ["I can provide some suggestion and simple test about learning disabilities", "I can provide some recommendation and a cognitive test about learning disabilities"],
+           "context":[""]
+         },
+        {"tag": "about",
+          "patterns": ["how you doing?","how are you"],
+          "responses": ["Thanks For Asking!How can I help you?"],
+          "context":[""]
+        }
+]
+}
